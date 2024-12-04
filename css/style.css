@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(27, 27, 27);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    height: 100vh;
+}
+
+main{
+    padding: 2rem;
+    background-color: #333;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+main > h1{
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+main #form-time form{
+    width: 100%;
+    display: flex;
+    gap: 0.2rem;
+    margin-bottom: 1rem;
+}
+
+main #form-time input{
+    flex: 1;
+    height: 32px;
+    border: none;
+    border-radius: 5px;
+    padding: 0, 5px;
+    font-size: 15px;
+}
+
+main #form-time button{
+    background-color: blue;
+    color: white;
+    padding: 0rem 1rem;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+main #time-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main #time-info .condicoes h2{
+    font-size: 18px;
+    font-weight: 400px;
+    margin-bottom: 0.2rem;
+}
+
+main #time-info .condicoes span{
+    font-size: 3rem;
+    font-weight: bold;
+}
